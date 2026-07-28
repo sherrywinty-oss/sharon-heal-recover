@@ -451,3 +451,66 @@ section,
     max-width: 240px;
   }
 }
+/* ==============================
+   DONATION SECTION UPGRADE
+============================== */
+
+.paypal-qr {
+    display: block;
+    width: 220px;
+    max-width: 100%;
+    margin: 20px auto;
+    border-radius: 18px;
+    background: #ffffff;
+    padding: 12px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.12);
+}
+
+.paypal-email {
+    font-size: 1.15rem;
+    font-weight: bold;
+    color: #5b2c83;
+    text-align: center;
+    word-break: break-word;
+    margin: 12px 0;
+}
+
+.paypal-box,
+.bank-box,
+.contact-box {
+
+    background: #ffffff;
+    border-radius: 18px;
+    padding: 25px;
+    margin-top: 25px;
+
+    box-shadow: 0 8px 20px rgba(0,0,0,.08);
+
+}
+
+.paypal-box h3,
+.bank-box h3,
+.contact-box h3 {
+
+    color: #5b2c83;
+    margin-bottom: 15px;
+
+}
+
+.paypal-box small {
+
+    display: block;
+    margin-top: 15px;
+    color: #666;
+    text-align: center;
+
+}
+
+.donation-message {
+
+    max-width: 750px;
+    margin: auto;
+    text-align: center;
+    line-height: 1.8;
+
+}
