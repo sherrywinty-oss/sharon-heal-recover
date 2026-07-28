@@ -620,3 +620,11 @@ section,
     width:fit-content;
     margin:30px auto;
 }
+.goal-note{
+    text-align:center;
+    color:#666;
+    font-size:0.95rem;
+    font-style:italic;
+    margin-top:20px;
+    line-height:1.6;
+}
