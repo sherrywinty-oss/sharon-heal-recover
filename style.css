@@ -330,3 +330,124 @@ footer p {
     max-height: 260px;
   }
   }
+/* ========================================
+   MOBILE GALLERY LAYOUT FIX
+   Keep all images inside the page
+======================================== */
+
+html,
+body {
+  width: 100%;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+main,
+section,
+.recovery-gallery,
+.recovery-gallery figure {
+  max-width: 100%;
+  min-width: 0;
+}
+
+.hero {
+  width: 100%;
+  max-width: 100%;
+}
+
+.hero-photo-wrap {
+  width: 170px;
+  height: 170px;
+  flex-shrink: 0;
+  overflow: hidden;
+}
+
+.hero-photo {
+  width: 100%;
+  height: 100%;
+  max-width: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.recovery-gallery {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  width: 100%;
+  max-width: 100%;
+  gap: 22px;
+}
+
+.recovery-gallery figure,
+.gallery-main,
+.medical-photo {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  min-width: 0;
+  margin: 0;
+}
+
+.recovery-gallery img {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  object-fit: contain;
+  border-radius: 14px;
+}
+
+.recovery-gallery figcaption {
+  width: 100%;
+  overflow-wrap: break-word;
+  padding: 12px 4px 5px;
+}
+
+/* Keep the sensitive medical-monitor image smaller */
+.recovery-gallery .medical-photo {
+  width: 70%;
+  max-width: 270px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.recovery-gallery .medical-photo img {
+  width: 100%;
+  height: auto;
+  max-height: 320px;
+  object-fit: contain;
+}
+
+@media (max-width: 600px) {
+
+  section {
+    width: calc(100% - 24px);
+    max-width: calc(100% - 24px);
+    overflow: hidden;
+  }
+
+  .hero-photo-wrap {
+    width: 155px;
+    height: 155px;
+  }
+
+  .recovery-gallery {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .recovery-gallery figure {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .recovery-gallery img {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+  }
+
+  .recovery-gallery .medical-photo {
+    width: 72%;
+    max-width: 240px;
+  }
+}
