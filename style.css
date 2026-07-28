@@ -217,3 +217,116 @@ footer p {
     border-radius: 18px;
   }
 }
+/* ========================================
+   SHARON'S PHOTOS
+======================================== */
+
+.hero-photo-wrap {
+  width: 180px;
+  height: 180px;
+  margin: 0 auto 28px;
+  padding: 6px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.95);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.20);
+}
+
+.hero-photo {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center top;
+  border-radius: 50%;
+}
+
+.recovery-gallery {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 18px;
+  margin: 30px 0;
+}
+
+.recovery-gallery figure {
+  margin: 0;
+  padding: 10px;
+  overflow: hidden;
+  background: #fff9fc;
+  border: 1px solid #eaddea;
+  border-radius: 18px;
+}
+
+.recovery-gallery img {
+  display: block;
+  width: 100%;
+  height: 260px;
+  object-fit: cover;
+  border-radius: 13px;
+}
+
+.recovery-gallery figcaption {
+  padding: 12px 5px 5px;
+  color: #6f6673;
+  font-size: 0.92rem;
+  line-height: 1.45;
+}
+
+.gallery-main {
+  grid-column: 1 / -1;
+}
+
+.gallery-main img {
+  height: auto;
+  max-height: 520px;
+  object-fit: contain;
+  background: #f7f1f7;
+}
+
+/* Keep the medical-monitor photo smaller and discreet */
+.medical-photo {
+  max-width: 300px;
+  justify-self: center;
+}
+
+.medical-photo img {
+  height: 220px;
+  object-fit: cover;
+  object-position: center;
+}
+
+/* Mobile phones */
+@media (max-width: 600px) {
+
+  .hero-photo-wrap {
+    width: 155px;
+    height: 155px;
+    margin-bottom: 24px;
+  }
+
+  .recovery-gallery {
+    grid-template-columns: 1fr;
+  }
+
+  .gallery-main {
+    grid-column: auto;
+  }
+
+  .recovery-gallery img {
+    height: auto;
+    max-height: 420px;
+    object-fit: contain;
+    background: #f7f1f7;
+  }
+
+  .medical-photo {
+    width: 75%;
+    max-width: 250px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .medical-photo img {
+    height: auto;
+    max-height: 260px;
+  }
+  }
