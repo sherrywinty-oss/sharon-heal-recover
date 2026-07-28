@@ -596,19 +596,3 @@ section,
     box-shadow: 0 4px 12px rgba(0,0,0,0.15);
 }
 
-.donate-button {
-    display: inline-block;
-    margin-top: 30px;
-    padding: 14px 32px;
-    background: #ffffff;
-    color: #6d2080;
-    text-decoration: none;
-    font-weight: bold;
-    font-size: 1.1rem;
-    border-radius: 50px;
-    box-shadow: 0 6px 18px rgba(0,0,0,0.2);
-}
-
-.donate-button:hover {
-    transform: translateY(-2px);
-}
