@@ -596,3 +596,27 @@ section,
     box-shadow: 0 4px 12px rgba(0,0,0,0.15);
 }
 
+.donate-button{
+    display:inline-block;
+    margin:30px auto;
+    padding:16px 36px;
+    background:linear-gradient(90deg,#d63384,#6d2080);
+    color:#ffffff;
+    text-decoration:none;
+    font-weight:bold;
+    font-size:1.1rem;
+    border-radius:50px;
+    box-shadow:0 8px 20px rgba(0,0,0,.18);
+    transition:.3s;
+}
+
+.donate-button:hover{
+    transform:translateY(-3px);
+    box-shadow:0 12px 28px rgba(0,0,0,.22);
+}
+
+.donation-message + .donate-button{
+    display:block;
+    width:fit-content;
+    margin:30px auto;
+}
