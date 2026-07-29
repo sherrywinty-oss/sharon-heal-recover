@@ -728,6 +728,30 @@ section,
 }
 
   }
+/* Floating Donate Button Animation */
+
+.floating-donate-button{
+    animation: donatePulse 2.8s infinite;
+}
+
+@keyframes donatePulse{
+
+    0%{
+        transform:scale(1);
+        box-shadow:0 6px 18px rgba(0,0,0,.25);
+    }
+
+    50%{
+        transform:scale(1.08);
+        box-shadow:0 10px 28px rgba(214,51,132,.55);
+    }
+
+    100%{
+        transform:scale(1);
+        box-shadow:0 6px 18px rgba(0,0,0,.25);
+    }
+
+}
 /* ===========================
    SHARE BUTTONS
 =========================== */
