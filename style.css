@@ -96,6 +96,8 @@ section h2 {
   color: var(--purple);
   font-size: clamp(1.65rem, 5vw, 2.3rem);
   line-height: 1.15;
+  text-align: center;
+  letter-spacing: -0.02em;
 }
 
 section h2::after {
@@ -109,7 +111,9 @@ section h2::after {
 }
 
 section p {
-  margin: 0 0 16px;
+    margin: 0 auto 18px;
+    max-width: 720px;
+    line-height: 1.8;
 }
 .soft-section {
     background: #ffffff;
