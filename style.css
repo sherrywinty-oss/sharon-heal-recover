@@ -111,7 +111,20 @@ section h2::after {
 section p {
   margin: 0 0 16px;
 }
+.soft-section {
+    background: #ffffff;
+    border: 1px solid rgba(85, 32, 111, 0.08);
+    border-radius: 22px;
+    padding: 40px 28px;
+    margin: 40px auto;
+    box-shadow: 0 8px 24px rgba(53, 16, 71, 0.06);
+    transition: all 0.3s ease;
+}
 
+.soft-section:hover {
+    box-shadow: 0 12px 30px rgba(53, 16, 71, 0.10);
+    transform: translateY(-2px);
+}
 section strong {
   color: var(--purple-dark);
 }
