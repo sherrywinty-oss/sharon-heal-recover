@@ -653,3 +653,39 @@ section,
     display:block;
     box-shadow:0 4px 12px rgba(0,0,0,.15);
 }
+.bank-logo {
+    width: 140px;
+    display: block;
+    margin: 20px auto;
+}
+
+.bank-button {
+    display: inline-block;
+    background: #25D366;
+    color: white;
+    padding: 14px 28px;
+    border-radius: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 20px;
+    transition: 0.3s;
+}
+
+.bank-button:hover {
+    background: #1EBE5D;
+}
+
+.bank-box {
+    background: #f8f9fa;
+    border: 2px solid #28a745;
+    border-radius: 15px;
+    padding: 25px;
+    text-align: center;
+    margin-top: 30px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+}
+
+.bank-box p {
+    margin: 10px 0;
+    line-height: 1.6;
+}
