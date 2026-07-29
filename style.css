@@ -28,9 +28,13 @@ body {
   line-height: 1.65;
   color: var(--ink);
   background:
-    radial-gradient(circle at top right, rgba(183, 53, 103, 0.09), transparent 30rem),
-    linear-gradient(180deg, #fffdfb 0%, var(--cream) 100%);
-}
+    radial-gradient(circle at top right, rgba(183,53,103,.10), transparent 30rem),
+    linear-gradient(
+        180deg,
+        #faf8fd 0%,
+        #f7f3fb 45%,
+        #fffdfc 100%
+    );
 
 a {
   color: var(--purple);
