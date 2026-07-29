@@ -922,3 +922,11 @@ background:#333;
     font-size: 1.05rem;
     word-break: break-word;
 }
+.share-link a {
+    color: #6d2080;
+    text-decoration: none;
+}
+
+.share-link a:hover {
+    text-decoration: underline;
+}
