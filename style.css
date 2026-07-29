@@ -911,3 +911,14 @@ background:#333;
 .email {
     background: #6d2080;
 }
+.share-link {
+    display: inline-block;
+    margin: 20px auto;
+    padding: 14px 22px;
+    background: #f8f2fb;
+    border: 1px solid rgba(109, 32, 128, 0.15);
+    border-radius: 12px;
+    color: #6d2080;
+    font-size: 1.05rem;
+    word-break: break-word;
+}
