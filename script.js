@@ -32,3 +32,18 @@ document.addEventListener("DOMContentLoaded", function () {
     footer.appendChild(copyright);
   }
 });
+function copyForInstagram() {
+
+navigator.clipboard.writeText("https://tinyurl.com/HelpSharonRecover");
+
+alert("Website link copied!\n\nPaste it into your Instagram Bio, Story or Post.");
+
+}
+
+function copyForTikTok() {
+
+navigator.clipboard.writeText("https://tinyurl.com/HelpSharonRecover");
+
+alert("Website link copied!\n\nPaste it into your TikTok Bio or Video Description.");
+
+}
