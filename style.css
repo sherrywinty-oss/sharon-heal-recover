@@ -35,6 +35,7 @@ body {
         #f7f3fb 45%,
         #fffdfc 100%
     );
+}
 
 a {
   color: var(--purple);
