@@ -492,7 +492,15 @@ section,
     box-shadow: 0 8px 20px rgba(0,0,0,.08);
 
 }
-
+.paypal-box{
+    border: 2px solid #B8DFFF;
+}
+.bank-box{
+    border: 2px solid #BFE8C7;
+}
+.contact-box{
+    border: 2px solid #F6D8A8;
+}
 .paypal-box h3,
 .bank-box h3,
 .contact-box h3 {
