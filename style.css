@@ -548,12 +548,25 @@ section,
 }
 
 .document-card {
-    margin-bottom: 40px;
+    background: #ffffff;
+    border: 1px solid rgba(85, 32, 111, 0.08);
+    border-radius: 18px;
+    padding: 24px;
+    margin: 30px auto;
+    max-width: 700px;
+    box-shadow: 0 8px 20px rgba(53, 16, 71, 0.08);
     text-align: center;
+    transition: all 0.3s ease;
+}
+
+.document-card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 12px 28px rgba(53, 16, 71, 0.12);
 }
 
 .document-card p {
     text-align: left;
+    line-height: 1.7;
 }
 /* ===============================
    FUNDRAISING GOAL CARD
