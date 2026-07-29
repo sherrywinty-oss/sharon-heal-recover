@@ -796,9 +796,6 @@ section,
     background:#8E44AD;
 }
 
-.copy{
-    background:#6C757D;
-    color:#fff;
 }
 .instagram-btn{
 background:#E4405F;
@@ -814,4 +811,8 @@ background:#111;
 
 .tiktok-btn:hover{
 background:#333;
+}
+.copy{
+    background:#6C757D;
+    color:#fff;
 }
