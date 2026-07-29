@@ -854,3 +854,60 @@ background:#333;
     background:#6C757D;
     color:#fff;
 }
+/* ================================
+   SHARE THIS CAMPAIGN
+================================ */
+
+.share-section {
+    text-align: center;
+}
+
+.share-section p {
+    max-width: 700px;
+    margin: 15px auto;
+    line-height: 1.8;
+}
+
+.share-qr {
+    width: 220px;
+    max-width: 90%;
+    display: block;
+    margin: 25px auto;
+    border-radius: 16px;
+    box-shadow: 0 8px 22px rgba(53,16,71,.12);
+}
+
+.share-buttons {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-top: 25px;
+}
+
+.share-btn {
+    display: inline-block;
+    padding: 14px 24px;
+    border-radius: 999px;
+    text-decoration: none;
+    font-weight: 700;
+    color: #fff;
+    transition: all .3s ease;
+}
+
+.share-btn:hover {
+    transform: translateY(-2px);
+    opacity: .92;
+}
+
+.whatsapp {
+    background: #25D366;
+}
+
+.facebook {
+    background: #1877F2;
+}
+
+.email {
+    background: #6d2080;
+}
