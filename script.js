@@ -58,9 +58,6 @@ window.addEventListener("scroll", function () {
 });
 
 backToTop.addEventListener("click", function () {
-    window.scrollTo({
-        top: 0,
-        behavior: "smooth"
-    });
+    window.scrollTo(0, 0);
 });
 
