@@ -63,15 +63,6 @@ backToTop.addEventListener("click", function () {
         behavior: "smooth"
     });
 });
-const backToTop = document.getElementById("backToTop");
-
-window.addEventListener("scroll", function () {
-    if (window.scrollY > 500) {
-        backToTop.style.display = "block";
-    } else {
-        backToTop.style.display = "none";
-    }
-});
 
 backToTop.addEventListener("click", function () {
     window.scrollTo({
