@@ -735,7 +735,7 @@ section,
 
 .floating-donate-button {
     position: fixed;
-    bottom: 20px;
+    bottom: 28px;
     right: 20px;
     background: #d63384;
     color: #fff;
@@ -763,7 +763,7 @@ section,
 @media (max-width:768px){
 
 .floating-donate-button{
-    bottom:18px;
+    bottom: 28px;
     right:18px;
     font-size:15px;
     padding:13px 20px;
