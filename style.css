@@ -997,3 +997,10 @@ background:#333;
 #backToTop:hover {
     transform: translateY(-3px);
 }
+#backToTop {
+    position: fixed;
+    bottom: 90px;
+    left: 20px;
+    z-index: 99999;
+    pointer-events: auto;
+}
