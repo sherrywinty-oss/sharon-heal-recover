@@ -64,9 +64,3 @@ backToTop.addEventListener("click", function () {
     });
 });
 
-backToTop.addEventListener("click", function () {
-    window.scrollTo({
-        top: 0,
-        behavior: "smooth"
-    });
-});
