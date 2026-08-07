@@ -914,6 +914,27 @@ background:#333;
 .email {
     background: #6d2080;
 }
+.instagram-btn {
+    background: #C13584;
+    color: #fff;
+}
+
+.instagram-btn:hover {
+    background: #A52A73;
+}
+
+.tiktok-btn {
+    background: #111;
+}
+
+.tiktok-btn:hover {
+    background: #333;
+}
+
+.copy {
+    background: #6C757D;
+    color: #fff;
+}
 .share-link {
     display: inline-block;
     margin: 20px auto;
