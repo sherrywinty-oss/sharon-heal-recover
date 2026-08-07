@@ -975,32 +975,22 @@ background:#333;
 .contact-section a:hover{
     text-decoration:underline;
 }
-#backToTop {
+##backToTop {
     position: fixed;
-    bottom: 170px;
-    right: 20px;
-    left: auto;
-    width: 52px;
-    height: 52px;
+    bottom: 90px;
+    left: 20px;
+    width: 60px;
+    height: 60px;
     border: none;
     border-radius: 50%;
     background: linear-gradient(135deg, #b73767, #55206f);
     color: white;
-    font-size: 22px;
-    cursor: pointer;
-    box-shadow: 0 8px 20px rgba(0,0,0,0.25);
-    display: block;
-    z-index: 999;
-    transition: all 0.3s ease;
-}
-
-#backToTop:hover {
-    transform: translateY(-3px);
-}
-#backToTop {
-    position: fixed;
-    bottom: 90px;
-    left: 20px;
-    z-index: 99999;
-    pointer-events: auto;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    line-height: 1;
+    z-index: 9999;
+    box-shadow: 0 8px 20px rgba(0,0,0,.25);
 }
