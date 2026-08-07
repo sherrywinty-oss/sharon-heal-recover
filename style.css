@@ -840,13 +840,12 @@ section,
 
 }
 .instagram-btn{
-background:#E4405F;
+    background:#C13584;
+    color:#fff;
 }
-
 .instagram-btn:hover{
-background:#c13584;
+    background:#A52A73;
 }
-
 .tiktok-btn{
 background:#111;
 }
