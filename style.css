@@ -988,7 +988,7 @@ background:#333;
     font-size: 22px;
     cursor: pointer;
     box-shadow: 0 8px 20px rgba(0,0,0,0.25);
-    display: none;
+    display: block;
     z-index: 999;
     transition: all 0.3s ease;
 }
