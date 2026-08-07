@@ -201,7 +201,7 @@ section:nth-of-type(4) em {
 
 footer {
   margin-top: 44px;
-  padding: 38px 22px;
+  padding: 38px 22px 120px;
   text-align: center;
   color: white;
   background: var(--purple-dark);
