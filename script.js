@@ -47,3 +47,19 @@ navigator.clipboard.writeText("https://tinyurl.com/HelpSharonRecover");
 alert("Website link copied!\n\nPaste it into your TikTok Bio or Video Description.");
 
 }
+const backToTop = document.getElementById("backToTop");
+
+window.addEventListener("scroll", function () {
+    if (window.scrollY > 500) {
+        backToTop.style.display = "block";
+    } else {
+        backToTop.style.display = "none";
+    }
+});
+
+backToTop.addEventListener("click", function () {
+    window.scrollTo({
+        top: 0,
+        behavior: "smooth"
+    });
+});
