@@ -2,8 +2,8 @@ document.addEventListener("DOMContentLoaded", function () {
   const goalJMD = 1200000;
   const raisedJMD = 0;
 
-  const progressBar = document.querySelector(".bar");
-  const progressText = document.querySelector(".progress + p");
+  const progressBar = document.querySelector(".progress-fill");
+  const progressText = document.querySelector(".progress-labels");
 
   if (progressBar) {
     const percentage = Math.min((raisedJMD / goalJMD) * 100, 100);
@@ -15,9 +15,9 @@ document.addEventListener("DOMContentLoaded", function () {
   }
 
   if (progressText) {
-    progressText.textContent =
-      "Raised: J$" + raisedJMD.toLocaleString() +
-      " of J$" + goalJMD.toLocaleString();
+    progressText.innerHTML =
+"<span>J$" + raisedJMD.toLocaleString() + " Raised</span>" +
+"<span>Goal: J$" + goalJMD.toLocaleString() + "</span>";
   }
 
   const footer = document.querySelector("footer");
