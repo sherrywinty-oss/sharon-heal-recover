@@ -999,3 +999,27 @@ background:#333;
     box-shadow: 0 8px 20px rgba(0,0,0,.25);
     overflow: hidden;
 }
+/* Fundraising progress text - visible on white goal card */
+.goal-card .progress-labels {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 15px;
+    margin-top: 14px;
+    color: #555555 !important;
+    font-size: 0.95rem;
+    font-weight: 700;
+    line-height: 1.4;
+    text-align: left;
+}
+
+.goal-card .progress-labels span:last-child {
+    text-align: right;
+}
+
+@media (max-width: 520px) {
+    .goal-card .progress-labels {
+        font-size: 0.82rem;
+        gap: 10px;
+    }
+}
