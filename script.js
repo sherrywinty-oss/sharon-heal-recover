@@ -14,11 +14,13 @@ document.addEventListener("DOMContentLoaded", function () {
     progressBar.setAttribute("aria-valuenow", raisedJMD.toString());
   }
 
-  if (progressText) {
+ if (progressText) {
+    const percentage = ((raisedJMD / goalJMD) * 100).toFixed(2);
+
     progressText.innerHTML =
-"<span>J$" + raisedJMD.toLocaleString() + " Raised</span>" +
-"<span>Goal: J$" + goalJMD.toLocaleString() + "</span>";
-  }
+        "<span>jmd $20,000 raised<br>Approx. usd $125.50</span>" +
+        "<span>" + percentage + "% funded</span>";
+ }
 
   const footer = document.querySelector("footer");
 
