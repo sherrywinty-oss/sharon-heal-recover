@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", function () {
   const goalJMD = 1200000;
-  const raisedJMD = 0;
+  const raisedJMD = 20000;
 
   const progressBar = document.querySelector(".progress-fill");
   const progressText = document.querySelector(".progress-labels");
